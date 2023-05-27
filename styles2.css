@@ -1,0 +1,162 @@
+.floatR {
+    float: right;
+  }
+  
+  .logo {
+    width: 35px;
+  }
+  
+  .logoMini{
+    width: 20px;
+  }
+  
+  .tarjeta {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+  
+  .tarjeta2 {
+    height: 400px;
+    border: 2px solid black;
+  }
+  .bandera-pequena {
+    width: 35px;
+  }
+  .texto {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  #barraNav {
+    position: fixed;
+    top: 0;
+  }
+  
+  .backgroundOfertas {
+    background-image: url("Imagenes/cucharas-especias-cerca-verduras.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .box .btn {
+    font-size: 1.5rem
+  }
+  
+  .btn-warning {
+    border: none;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: -1px 6px 19px rgb(255, 45, 45);
+    border-radius: 100px
+  }
+  
+  .btn-warning:hover {
+    background: none #ffbc2b;
+    color: #ffffff;
+    box-shadow: -1px 6px 13px #f7810a
+  }
+  
+  .bg-success {
+    font-size: 1rem;
+    background-color: #f7810a !important
+  }
+  
+  .bg-danger {
+    font-size: 1rem
+  }
+  
+  @media (max-width: 370px) {
+    .box .btn {
+      padding: 5px 40px 5px 40px;
+      font-size: 1rem
+    }
+  }
+  
+  .imagenRestaurante{
+    width: 620px;
+    height: 390px;
+  }
+  
+  .imagenComida{
+    width: 250px;
+    height: 150px;
+  }
+  
+  .gradient-custom-2 {
+    background-image: url("Imagenes/loginImagen.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .gradient-custom-3 {
+    background-image: url("Imagenes/barista-preparando-bebida.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  .gradient-custom-3 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
