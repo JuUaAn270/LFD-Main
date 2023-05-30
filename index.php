@@ -182,25 +182,21 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-6 my-3">
           <div class="position-relative">
             <img src="Imagenes/50.png" alt="Imagen" class="img-fluid">
-            <button class="btn btn-warning position-absolute bottom-0 end-0 m-3">Más Información</button>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-6 my-3">
           <div class="position-relative">
             <img src="Imagenes/familiar.png" alt="Imagen" class="img-fluid">
-            <button class="btn btn-warning position-absolute bottom-0 end-0 m-3">Más Información</button>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-6 my-3">
           <div class="position-relative">
             <img src="Imagenes/Bebidas.png" alt="Imagen" class="img-fluid">
-            <button class="btn btn-warning position-absolute bottom-0 end-0 m-3">Más Información</button>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-6 my-3">
           <div class="position-relative">
             <img src="Imagenes/pareja.png" alt="Imagen" class="img-fluid">
-            <button class="btn btn-warning position-absolute bottom-0 end-0 m-3">Más Información</button>
           </div>
         </div>
       </div>
@@ -399,7 +395,7 @@
           // Mostrar la card del producto
           echo '<div class="col-md-4">';
           echo '<div class="card mx-auto"> ';
-          echo '<div class="card-body">';
+          echo '<div class="card-body" style="height: 500px">';
           echo '<div class="imagenProducto mx-auto m-3">';
           echo '<img src="' . $img_producto . '" class="img-fluid" alt="">';
           echo '</div>';
@@ -593,6 +589,7 @@
 
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
         <p>&copy; 2023 Latin Food Delivery. Todos los derechos reservados.</p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>.
       </div>
     </footer>
   </div>

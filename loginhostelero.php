@@ -69,7 +69,7 @@
 
                   <form method="post">
                     <div class="form-outline mb-4">
-                      <input type="text" id="form2Example11" class="form-control" name="correo" placeholder="Introduce tu correo coorporativo" />
+                      <input type="text" id="form2Example11" class="form-control" name="correo" placeholder="Introduce tu correo corporativo" />
                     </div>
 
                     <div class="form-outline mb-4">

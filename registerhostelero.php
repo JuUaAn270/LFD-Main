@@ -115,7 +115,7 @@
 
                                     <div class="form-outline mb-4">
                                         <input type="email" name="correo" class="form-control"
-                                            placeholder="Introduce tu correo coorporativo" />
+                                            placeholder="Introduce tu correo corporativo" />
                                         <p class="text-muted">Ej: jperez@example.com</p>
                                     </div>
 

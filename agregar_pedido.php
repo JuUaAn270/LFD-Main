@@ -12,7 +12,7 @@ if (isset($_COOKIE['productos_pedidos'])) {
   // Agregar la nueva ID de producto al arreglo
   $productos[] = $id_producto;
 
-  // Codificar el arreglo como JSON y almacenarlo en la cookie
+  // Codificar el array como JSON y almacenarlo en la cookie
   setcookie('productos_pedidos', json_encode($productos), time() + 86400, '/');
 } else {
   // Si la cookie no existe, crear un nuevo arreglo con la ID de producto
@@ -23,6 +23,6 @@ if (isset($_COOKIE['productos_pedidos'])) {
 }
 
 // Redirigir al archivo de la lista de productos
-header('Location: index.php');
+header('Location: index.php#productos');
 exit();
 ?>
