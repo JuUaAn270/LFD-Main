@@ -82,7 +82,7 @@
             <a href="https://twitter.com/?lang=es"><img class="logo mx-3" src="Imagenes/icons8-twitter-50.png" /></a>
             <a href="https://es-es.facebook.com/"><img class="logo mx-3"
                 src="Imagenes/icons8-youtube-play-50.png" /></a>
-            <a href="https://www.instagram.com/"><img class="logo mx-3" src="Imagenes/logogit.png" /></a>
+            <a href="https://github.com/JuUaAn270/LFD-Main"><img class="logo mx-3" src="Imagenes/logogit.png" /></a>
           </div>
           <?php
           // Verificar si la cookie "id_usuario" está presente
