@@ -161,65 +161,50 @@ VALUES
 
 -- Restaurantes
 INSERT INTO restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (1, 'Avenida Corrientes 348', 'La Brigada', 1, 'https://www.example.com/la-brigada.jpg');
+VALUES (1, 'Avenida Corrientes 348', 'La Brigada', 1, 'https://i.ibb.co/kBFkbzm/La-Brigada-Interior.jpg');
 
 INSERT INTO restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (2, 'Calle Reconquista 885', 'El Establo', 1, 'https://www.example.com/el-establo.jpg');
+VALUES (2, 'Calle Reconquista 885', 'El Establo', 1, 'https://i.ibb.co/NtJr0kj/el-establo.jpg');
 
 INSERT INTO restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (3, 'Rua da Alfândega 35', 'Confeitaria Colombo', 3, 'https://www.example.com/confeitaria-colombo.jpg');
+VALUES (3, 'Rua da Alfândega 35', 'Confeitaria Colombo', 3, 'https://i.ibb.co/ss05x6N/caf-da-manh-colombo-600x375.jpg');
 
 INSERT INTO restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (4, 'Rua Almirante Alexandrino 332', 'Bar do Mineiro', 3, 'https://www.example.com/bar-do-mineiro.jpg');
+VALUES (4, 'Rua Almirante Alexandrino 332', 'Bar do Mineiro', 3, 'https://i.ibb.co/wSGFhxm/do-mineiro.jpg');
 
 INSERT INTO restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (5, 'Carrera 6', 'La Puerta Falsa', 5, 'https://www.example.com/la-puerta-falsa.jpg');
+VALUES (5, 'Carrera 6', 'La Puerta Falsa', 5, 'https://i.ibb.co/1JjZy85/puertafalsa.jpg');
 
 INSERT INTO restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (6, 'Calle 11', 'Andrés Carne de Res', 5, 'https://www.example.com/andres-carne-de-res.jpg');
+VALUES (6, 'Calle 11', 'Andrés Carne de Res', 5, 'https://i.ibb.co/M1HkMrg/andres-carne-de-res.jpg');
 
 INSERT INTO restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (7, 'Jirón Zepita 214', 'La Lucha Sanguchería Criolla', 16, 'https://www.example.com/la-lucha.jpg');
+VALUES (7, 'Jirón Zepita 214', 'La Lucha Sanguchería Criolla', 16, 'https://i.ibb.co/0YM7tNK/la-lucha.jpg');
 
 INSERT INTO restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (8, 'Jirón de la Unión 1085', 'Panchita', 16, 'https://www.example.com/panchita.jpg');
+VALUES (8, 'Jirón de la Unión 1085', 'Panchita', 16, 'https://i.ibb.co/8KsZNz5/Panchita-ficha-listo.jpg');
 
 INSERT INTO public.restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (9, 'Calle Monjitas 578', 'El Fogón', 4, 'https://fogonrestaurant.cl/wp-content/uploads/2017/08/El-Fogon-Restaurant-Santiago-de-Chile.png');
+VALUES (9, 'Calle Monjitas 578', 'El Fogón', 4, 'https://i.ibb.co/vk1Wrq5/el-fogon-de-trifon.jpg');
 
 INSERT INTO public.restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (14, 'Avenida Francisco Bilbao 465', 'Como agua para chocolate', 4, 'https://www.comoaguaparachocolate.cl/wp-content/uploads/2021/02/logo-CAPC.png');
+VALUES (14, 'Avenida Francisco Bilbao 465', 'Como agua para chocolate', 4, 'https://i.ibb.co/FXQDsX7/restaurante-como-agua-para-chocolate-santiago-1.jpg');
 
 INSERT INTO public.restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (10, 'Calle Rocafuerte y 10 de Agosto', 'Hasta la Vuelta Señor', 8, 'https://www.hastalavueltasenor.com/images/logo.svg');
+VALUES (10, 'Calle Rocafuerte y 10 de Agosto', 'Hasta la Vuelta Señor', 8, 'https://i.ibb.co/g3jxcwG/hastalavu.jpg');
 
 INSERT INTO public.restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (11, 'Calle Numa Pompilio Llona', 'El Pobre Diablo', 8, 'https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_350,h_300/https://elpobrediablo.com.ec/wp-content/uploads/2018/11/logo-1.png');
+VALUES (11, 'Calle Numa Pompilio Llona', 'El Pobre Diablo', 8, 'https://i.ibb.co/KK9Pv0Y/pobrediablo.jpg');
 
 INSERT INTO public.restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (12, 'Av. España', 'Lido Bar', 15, 'https://www.lidobar.com.py/wp-content/uploads/2019/05/logo-lido-02.png');
+VALUES (12, 'Av. España', 'Lido Bar', 15, 'https://i.ibb.co/kDfWpsf/lido-bar.jpg');
 
 INSERT INTO public.restaurante (id_restaurante, direccion, nombre, id_pais, imagen)
-VALUES (13, 'Chaco Boreal esquina Guaraní', 'La Cabrera', 15, 'https://www.hoy.com.py/files/image/3/348/1200_630/la-cabrera.jpg');
+VALUES (13, 'Chaco Boreal esquina Guaraní', 'La Cabrera', 15, 'https://i.ibb.co/HG2rDK5/cabrera.jpg');
 
 INSERT INTO cliente (id_usuario, nombre, apellidos, correo, dni, direccion, username, password)
 VALUES (1, 'Juan', 'Pérez', 'juanperez@example.com', '12345678A', 'Calle Falsa 123', 'jperez', 'jperez');
 
 
 INSERT INTO hostelero (id_usuario, nombre, apellidos, username, password, id_restaurante)
-VALUES (1, 'Daniel', 'Martín', 'danim', 'danim', 1);
-
-https://i.ibb.co/HG2rDK5/cabrera.jpg
-https://i.ibb.co/kDfWpsf/lido-bar.jpg
-https://i.ibb.co/KK9Pv0Y/pobrediablo.jpg
-https://i.ibb.co/g3jxcwG/hastalavu.jpg
-https://i.ibb.co/FXQDsX7/restaurante-como-agua-para-chocolate-santiago-1.jpg
-https://i.ibb.co/vk1Wrq5/el-fogon-de-trifon.jpg
-https://i.ibb.co/8KsZNz5/Panchita-ficha-listo.jpg
-https://i.ibb.co/0YM7tNK/la-lucha.jpg
-https://i.ibb.co/M1HkMrg/andres-carne-de-res.jpg
-https://i.ibb.co/1JjZy85/puertafalsa.jpg
-https://i.ibb.co/wSGFhxm/do-mineiro.jpg
-https://i.ibb.co/kBFkbzm/La-Brigada-Interior.jpg
-https://i.ibb.co/ss05x6N/caf-da-manh-colombo-600x375.jpg
-https://i.ibb.co/NtJr0kj/el-establo.jpg
+VALUES (1, 'Juan', 'Ruiz', 'jruiz', 'jruiz', 1);
